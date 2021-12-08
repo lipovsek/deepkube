@@ -1,0 +1,25 @@
+domain: roboops
+layout:
+- go.kubebuilder.io/v3
+projectName: deepkube
+repo: roboops/deepkube
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: roboops
+  group: zero
+  kind: Run
+  path: roboops/deepkube/api/v1
+  version: v1
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: roboops
+  group: zero
+  kind: Template
+  path: roboops/deepkube/api/v1
+  version: v1
+version: "3"
