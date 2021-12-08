@@ -1,0 +1,6 @@
+apiVersion: zero.roboops/v1
+kind: Run
+metadata:
+  name: run-sample
+spec:
+  # TODO(user): Add fields here
